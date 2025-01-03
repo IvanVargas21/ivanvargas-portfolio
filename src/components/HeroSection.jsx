@@ -26,10 +26,6 @@ const HeroSection = () => {
             Let's Get in Touch!
           </span>
         </button>
-          {/* <span></span>
-          <span></span>
-          <span></span>
-           */}
         </div>
       </div>
 

@@ -8,7 +8,6 @@ const AboutSection = () => {
 						<h5 className="text-green-500 text-4xl font-bebas">01.</h5>
 						<h1 className="text-4xl font-bold">About Me</h1>
 					</div>
-					{/* Horizontal line */}
 					<div className="flex-grow h-1 bg-green-500 ml-4"></div>
 				</header>
 
@@ -26,8 +25,13 @@ const AboutSection = () => {
 						Today, I’m <span className="text-green-500 font-bold">actively combining</span> my <span className="text-green-500 font-bold">creativity</span> and <span className="text-green-500 font-bold">technical skills</span> through <span className="text-green-500 font-bold">self study</span> and <span className="text-green-500 font-bold">personal projects</span>. Each project deepens my understanding and brings me closer to my goal of becoming a <span className="text-green-500 font-bold">Full Stack Web Developer</span>. I’m excited about the endless possibilities in web development and am committed to continuous learning, innovation, and building impactful digital experiences.
 						</p>
 				  </div>
-					<div>
 
+					<div className="pt-10 dark-green-glow">
+						<button className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-white rounded-lg border-2 border-green-500 group hover:shadow-green-glow transition-shadow duration-300 hover:-translate-y-2">
+							<span className="text-base relative px-5 py-2.5 transition-all ease-in duration-300 bg-white dark:bg-gray-900 rounded-md text-white group-hover:text-green-500">
+								Let's Get in Touch!
+							</span>
+						</button>
 					</div>
 			  </div>
     </section>
