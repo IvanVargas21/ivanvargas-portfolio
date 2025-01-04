@@ -1,0 +1,13 @@
+@keyframes rotateLetters {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .rotate-animation {
+    animation: rotateLetters 10s linear infinite; /* 10 seconds for a full rotation */
+  }
+  

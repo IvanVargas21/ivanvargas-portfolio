@@ -6,6 +6,8 @@ import TechStackSection from './components/TechStackSection';
 import StickyLabel from './components/StickyLabel';
 import AboutSection from './components/AboutSection';
 import ProjectsSection from './components/ProjectsSection';
+import ContactSection from './components/ContactSection';
+import FooterSection from './components/FooterSection';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,7 +22,9 @@ function App() {
             <AboutSection/>
             <TechStackSection/>
             <ProjectsSection/>
+            <ContactSection />
           </div>
+          <FooterSection/>
       </div>
     </div>
 

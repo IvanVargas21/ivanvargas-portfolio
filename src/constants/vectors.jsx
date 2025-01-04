@@ -10,72 +10,85 @@ import visualStudio from '../assets/vectors/visual studio.svg';
 import fireFox from '../assets/imgs/firefox.ico';
 import mysql from '../assets/vectors/mysql.svg';
 import php from '../assets/vectors/php.svg';
-import bootstrap from '../assets/vectors/bootstrap.svg'
+import bootstrap from '../assets/vectors/bootstrap.svg';
+import figma from '../assets/vectors/figma.svg'
+import jasmine from '../assets/vectors/jasmine.svg'
+
 const imageDetails = [
   {
     title: "HTML5",
     src: html,
-    alt: 'HTML5',
+    alt: 'HTML5 icon',
   },
   {
     title: "CSS3",
     src: css,
-    alt: 'CSS3',
+    alt: 'CSS3 icon',
   },
   {
     title: "JavaScript",
     src: javascript,
-    alt: 'JavaScript',
+    alt: 'JavaScript icon',
   },
   {
     title: "ReactJS",
     src: react,
-    alt: 'ReactJS',
+    alt: 'ReactJS icon',
   },
   {
     title: "Tailwind",
     src: tailwind,
-    alt: 'Tailwind',
+    alt: 'Tailwind icon',
   },
   {
     title: "Bootstrap",
     src: bootstrap,
-    alt: 'bootstrap',
+    alt: 'bootstrap icon',
   },
   {
     title: "Git",
     src: git,
-    alt: 'Git',
+    alt: 'Git icon',
   },
   {
     title: "Github",
     src: github,
-    alt: 'Github',
+    alt: 'Github icon',
   },
   {
     title: "Github Desktop",
     src: githubDesktop,
-    alt: 'Github Desktop',
+    alt: 'Github Desktop icon',
   },
   {
     title: "VS Code",
     src: visualStudio,
-    alt: 'VS Code',
+    alt: 'VS Code icon',
   },
   {
     title: "FireFox Dev Tools",
     src: fireFox,
-    alt: 'Firefox Dev Tools',
+    alt: 'Firefox Dev Tools icon',
   },
   {
     title: "MySQL",
     src: mysql,
-    alt: 'MySQL',
+    alt: 'MySQL icon',
   },
   {
     title: "PHP",
     src: php,
-    alt: 'PHP',
+    alt: 'PHP icon',
+  },
+  {
+    title: "Figma",
+    src: figma,
+    alt: 'Figma icon',
+  },
+  {
+    title: "Jasmine",
+    src: jasmine,
+    alt: 'Jasmine Javascript Testing icon',
   }
   
 ]

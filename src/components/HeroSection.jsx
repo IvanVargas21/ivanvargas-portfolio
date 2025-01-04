@@ -1,36 +1,32 @@
 import React from 'react';
 import ImgHeroSection from './ImgHeroSection';
+import ResumeButton from './ResumeButton';
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col-reverse items-center justify-center h-screen lg:flex-row space-around lg:gap-8 overflow-hidden">
+    <div className="flex flex-col lg:flex-row items-center justify-between h-auto lg:h-[calc(100vh-100px)] space-around lg:gap-x-14 overflow-hidden mb-20 sm:mb-16 md:my-20 lg:my-24 xl:my-2">
       {/* Text Section */}
-      
-      <div className="max-w-xl text-center lg:text-left">
-        <h2 className="mb-1 text-3xl font-extrabold text-gray-400 sm:text-base md:text-lg lg:text-2xl xl:text-3xl dark:text-gray-400">
+      <div className="flex flex-col justify-center items-start max-w-xl lg:max-w-3xl text-center lg:text-left sm:mt-8 md:mt-0 lg:mt-0 flex-1">
+        <h2 className="mb-1 text-3xl font-extrabold text-gray-400 sm:text-lg md:text-xl lg:text-3xl xl:text-4xl dark:text-gray-400">
           Hello, I am <span className="text-green-500">Ivan</span>
         </h2>
-        <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900  sm:text-3xl md:text-5xl lg:text-6xl xl:8xl dark:text-white">
+        <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 sm:text-4xl md:text-5xl lg:text-6xl xl:8xl dark:text-white">
           Front End <br />
           Web Developer
         </h1>
-        <p className="mb-4 text-lg font-light text-gray-400 sm:text-base md:text-lg lg:text-xl xl:text-2xl dark:text-gray-400">
-            Leveraging Front-End Expertise to Craft <span className="text-violet-500 font-semibold">Seamless</span>, <span className="text-violet-500 font-semibold">Interactive</span> Web Designs
+        <p className="mb-2 text-lg font-light text-gray-400 sm:text-base md:text-lg lg:text-xl xl:text-2xl dark:text-gray-400 sm:px-12 lg:px-0">
+          Leveraging Front-End Expertise to Craft <span className="text-violet-500 font-semibold">Seamless</span>, <span className="text-violet-500 font-semibold">Interactive</span> Web Designs
         </p>
-        <p className="text-lg font-light text-gray-400 sm:text-base md:text-lg lg:text-xl xl:text-2xl dark:text-gray-400">
-            Delivering <span className="text-violet-500 font-semibold">High-Quality</span> User Interfaces That Engage and Delight Your Audience
+        <p className="text-lg font-light text-gray-400 sm:text-base md:text-lg lg:text-xl xl:text-2xl dark:text-gray-400 sm:p-0">
+          Delivering <span className="text-violet-500 font-semibold">High-Quality</span> User Interfaces That Engage and Delight Your Audience
         </p>
-        <div className="pt-10 dark-green-glow">
-        <button className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-white rounded-lg border-2 border-green-500 group hover:shadow-green-glow transition-shadow duration-300 hover:-translate-y-2">
-          <span className="text-base relative px-5 py-2.5 transition-all ease-in duration-300 bg-white dark:bg-gray-900 rounded-md text-white group-hover:text-green-500">
-            Let's Get in Touch!
-          </span>
-        </button>
+        <div className="mb-72 sm:mb-2 md:mb-4 lg:mb-0">
+          <ResumeButton/>
         </div>
       </div>
 
       {/* Image Section */}
-      <div className="mb-8 lg:mb-0 flex justify-center items-center w-full lg:w-auto">
+      <div className="mt-28 sm:mt-7 flex justify-center items-center w-full lg:w-auto flex-1">
         <ImgHeroSection />
       </div>
     </div>

@@ -1,10 +1,12 @@
 import React from 'react'
 import { projectsDetails } from '../constants/projects'
 
+
 const ProjectsSection = () => {
   return (
-    <section className="flex flex-col justify-center items-start py-2 mb-20">
-      <header className="flex justify-start items-center mb-24 gap-x-4 w-full">
+  <>
+    <section className="flex flex-col justify-center items-start py-2 mb-16 sm:mb-16">
+      <header className="flex justify-start items-center mb-24 gap-x-4 w-full sm:mb-12">
         <div className="flex items-center gap-x-4">
           <h5 className="text-green-500 text-4xl font-bebas">03.</h5>
           <h1 className="text-4xl font-bold">Projects</h1>
@@ -12,7 +14,7 @@ const ProjectsSection = () => {
         <div className="flex-grow h-1 bg-green-500 ml-4"></div>
       </header>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 m-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 m-auto mb-14">
         {projectsDetails.map((project, projectIndex) => (
           <div
             key={projectIndex}
@@ -58,7 +60,12 @@ const ProjectsSection = () => {
           </div>
         ))}
       </div>
+      <div className="w-full flex justify-center items-center">
+        <div className="mx-auto"><p className=" text-green-500">More Projects Coming Soon!</p></div>
+      </div>
     </section>
+    
+  </>
   )
 }
 

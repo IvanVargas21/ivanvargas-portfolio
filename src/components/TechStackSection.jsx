@@ -3,8 +3,8 @@ import imageDetails from '../constants/vectors.jsx';
 
 const TechStackSection = () => {
   return (
-    <section className="flex flex-col justify-center items-center py-2 mb-20">
-      <header className="flex justify-start items-center mb-32 sm:mb-20 gap-x-4 w-full">
+    <section className="flex flex-col justify-center items-center py-2 mb-20 sm:mb-16">
+      <header className="flex justify-start items-center mb-32 gap-x-4 w-full sm:mb-12">
           <div className="flex items-center gap-x-4">
             <h5 className="text-green-500 text-4xl font-bebas">02.</h5>
             <h1 className="text-4xl font-bold">Tech & Tools</h1>
