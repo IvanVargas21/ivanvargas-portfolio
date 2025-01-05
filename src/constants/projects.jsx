@@ -12,14 +12,14 @@ import amazon from '../assets/gif/amazonclone.gif'
 import virtualR from  '../assets/gif/virtualr_landingpage.gif'
 
 //Projects Demo
-import calorieCounterProj from '../../public/projects/FormValidation_CalorieCounter/index.html';
-import amazonProj from '../../public/projects/javascript-amazon-project/amazon.html';
-import landingPageProj from '../../public/projects/Product_LandingPage/index.html';
-import colorGeneratorProj from '../../public/projects/RandomColorGenerator/index.html';
-import rockPaperScissorsProj from '../../public/projects/Rock,Paper,Scissors_Game/index.html'; 
-import rolePlayingGameProj from '../../public/projects/RolePlayingGame_BasicJS/index.html';
-import surveyFormProj from '../../public/projects/SurveyForm_CertificationProject/index.html';
-import technicalDocumentationProj from '../../public/projects/TechnicalDocumentation_Page/index.html';
+import calorieCounterProj from '../../demos/FormValidation_CalorieCounter/index.html';
+import amazonProj from '../../demos/javascript-amazon-project/amazon.html';
+import landingPageProj from '../../demos/Product_LandingPage/index.html';
+import colorGeneratorProj from '../../demos/RandomColorGenerator/index.html';
+import rockPaperScissorsProj from '../../demos/Rock,Paper,Scissors_Game/index.html'; 
+import rolePlayingGameProj from '../../demos/RolePlayingGame_BasicJS/index.html';
+import surveyFormProj from '../../demos/SurveyForm_CertificationProject/index.html';
+import technicalDocumentationProj from '../../demos/TechnicalDocumentation_Page/index.html';
 
 //Projects SVG
 import phpIcon from '../assets/vectors/php.svg';
