@@ -1,12 +1,11 @@
 import React from 'react'
-import { projectsDetails } from '../constants/projects'
-
+import { projectsDetails } from '../constants/projects';
 
 const ProjectsSection = () => {
   return (
   <>
-    <section className="flex flex-col justify-center items-start py-2 mb-16 sm:mb-16">
-      <header className="flex justify-start items-center mb-24 gap-x-4 w-full sm:mb-12">
+    <section id="projects" className="flex flex-col justify-center items-start py-2 mb-16 sm:mb-16 sm:pt-20">
+      <header className="flex justify-start items-center mb-24 md:mt-20 lg:mt-20 gap-x-4 w-full sm:mb-12">
         <div className="flex items-center gap-x-4">
           <h5 className="text-green-500 text-4xl font-bebas">03.</h5>
           <h1 className="text-4xl font-bold">Projects</h1>

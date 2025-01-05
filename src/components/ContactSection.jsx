@@ -33,8 +33,8 @@ const ContactSection = () => {
   };
 
   return (
-    <section className="py-8 bg-white dark:bg-slate-900 sm:py-2">
-      <header className="flex justify-start items-center mb-32 gap-x-4 w-full sm:mb-12 lg:mb-2">
+    <section id="contact" className="py-8 bg-white dark:bg-slate-900 sm:py-2">
+      <header className="flex justify-start items-center mb-32 md:mt-20 gap-x-4 w-full sm:mb-12 lg:mb-2">
           <div className="flex items-center gap-x-4">
             <h5 className="text-green-500 text-4xl font-bebas">04.</h5>
             <h1 className="text-4xl font-bold">Contacts</h1>

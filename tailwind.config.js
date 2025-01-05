@@ -11,6 +11,7 @@ export default {
       },
       fontFamily: {
         bebas: ['Bebas Neue', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
       },
       animation: {
         "spin-slow": "spin 10s linear infinite", // Adjust duration as needed

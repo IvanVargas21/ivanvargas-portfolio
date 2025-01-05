@@ -5,7 +5,7 @@ import clsf from '../assets/imgs/CLSF2.png';
 import documentation from '../assets/imgs/documentation.png';
 import salesInventorySystem from '../assets/gif/kandylandSalesandInventory.gif';
 import landingPage from '../assets/imgs/landing_Page.png';
-import rockPaperScissors from '../assets/imgs/amazonproject.png';
+import rockPaperScissors from '../assets/imgs/RockPaperScissors.png';
 import rolePlayingGame from '../assets/imgs/Role_Playing_Game_JS.png';
 import surveyForm from '../assets/imgs/survey_form.png';
 import amazon from '../assets/gif/amazonclone.gif'

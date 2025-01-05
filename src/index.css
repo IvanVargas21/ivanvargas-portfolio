@@ -13,6 +13,9 @@
 *::after {
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 body {
   margin:0;
 }
@@ -30,16 +33,32 @@ body {
 ::-webkit-scrollbar-track {
   background-color: #2D3748; /* Optional: background for the scrollbar track */
 }
-@keyframes rotateLetters {
+
+.rotating-container {
+  position: relative;
+  animation: rotate-clockwise 10s linear infinite; /* Clockwise rotation */
+}
+
+.rotating-container span {
+  position: absolute;
+  transform-origin: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.9rem; /* Smaller font size */
+  color: #22c55e;
+}
+
+/* Animation for clockwise rotation */
+@keyframes rotate-clockwise {
   0% {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(360deg);
+    transform: rotate(360deg); /* Clockwise */
   }
 }
 
-.rotate-animation {
-  animation: rotateLetters 10s linear infinite; /* 10 seconds for a full rotation */
-}
+
+
 
